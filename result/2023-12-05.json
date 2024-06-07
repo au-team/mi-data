@@ -1,0 +1,170 @@
+[
+    {
+        "id": "19184",
+        "name": "Redmi Note 13 Pro",
+        "price": "1399",
+        "count": 315100
+    },
+    {
+        "id": "19185",
+        "name": "Redmi Note 13 Pro+",
+        "price": "1899",
+        "count": 188791
+    },
+    {
+        "id": "19182",
+        "name": "Redmi Note 13 5G",
+        "price": "1099",
+        "count": 147271
+    },
+    {
+        "id": "19026",
+        "name": "Redmi K60 至尊版",
+        "price": "2799",
+        "count": 331993
+    },
+    {
+        "id": "16326",
+        "name": "Redmi K50 至尊版",
+        "price": "2699",
+        "count": 396582
+    },
+    {
+        "id": "19054",
+        "name": "Redmi 12 5G",
+        "price": "949",
+        "count": 16229
+    },
+    {
+        "id": "19019",
+        "name": "Xiaomi MIX Fold 3",
+        "price": "8999",
+        "count": 67685
+    },
+    {
+        "id": "16337",
+        "name": "Xiaomi MIX Fold 2",
+        "price": "8999",
+        "count": 137108
+    },
+    {
+        "id": "19019",
+        "name": "Xiaomi MIX Fold 3",
+        "price": "8999",
+        "count": 67685
+    },
+    {
+        "id": "16337",
+        "name": "Xiaomi MIX Fold 2",
+        "price": "8999",
+        "count": 137108
+    },
+    {
+        "id": "17971",
+        "name": "Xiaomi 13",
+        "price": "3599",
+        "count": 1470498
+    },
+    {
+        "id": "17969",
+        "name": "Xiaomi 13 Pro",
+        "price": "4599",
+        "count": 326962
+    },
+    {
+        "id": "18363",
+        "name": "Xiaomi 13 Ultra",
+        "price": "5999",
+        "count": 275955
+    },
+    {
+        "id": "17972",
+        "name": "Xiaomi 13 限量定制色",
+        "price": "4299",
+        "count": 34031
+    },
+    {
+        "id": "18075",
+        "name": "Redmi K60",
+        "price": "2199",
+        "count": 1505412
+    },
+    {
+        "id": "18077",
+        "name": "Redmi K60 Pro",
+        "price": "3299",
+        "count": 248065
+    },
+    {
+        "id": "18073",
+        "name": "Redmi K60E",
+        "price": "1899",
+        "count": 106218
+    },
+    {
+        "id": "18482",
+        "name": "Xiaomi Civi 3",
+        "price": "2299",
+        "count": 361894
+    },
+    {
+        "id": "18569",
+        "name": "Xiaomi Civi 3 迪士尼100周年限定版手机壳",
+        "price": "99",
+        "count": 1353
+    },
+    {
+        "id": "16642",
+        "name": "Redmi Note 12 5G",
+        "price": "899",
+        "count": 811104
+    },
+    {
+        "id": "18268",
+        "name": "Redmi Note 12 Turbo",
+        "price": "1599",
+        "count": 1098304
+    },
+    {
+        "id": "18542",
+        "name": "Redmi Note 12T Pro",
+        "price": "1399",
+        "count": 84802
+    },
+    {
+        "id": "16644",
+        "name": "Redmi Note 12 Pro",
+        "price": "1299",
+        "count": 1109463
+    },
+    {
+        "id": "19300",
+        "name": "Xiaomi 14",
+        "price": "3999",
+        "count": 436247
+    },
+    {
+        "id": "19288",
+        "name": "Xiaomi 14 Pro",
+        "price": "4999",
+        "count": 227479
+    },
+    {
+        "id": "19432",
+        "name": "Redmi K70",
+        "price": "2499",
+        "count": 5408
+    },
+    {
+        "id": "19436",
+        "name": "Redmi K70 Pro",
+        "price": "3299",
+        "count": 4032
+    },
+    {
+        "id": "19437",
+        "name": "Redmi K70E",
+        "price": "1999",
+        "count": 1398
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "17971",
+        "name": "Xiaomi 13",
+        "price": "3999",
+        "count": 1092052
+    },
+    {
+        "id": "17969",
+        "name": "Xiaomi 13 Pro",
+        "price": "4999",
+        "count": 289526
+    },
+    {
+        "id": "18363",
+        "name": "Xiaomi 13 Ultra",
+        "price": "5999",
+        "count": 160122
+    },
+    {
+        "id": "17972",
+        "name": "Xiaomi 13 限量定制色",
+        "price": "4999",
+        "count": 32799
+    },
+    {
+        "id": "18443",
+        "name": "Xiaomi 13 Ultra 限量定制色",
+        "price": "6499",
+        "count": 6403
+    },
+    {
+        "id": "18075",
+        "name": "Redmi K60",
+        "price": "2099",
+        "count": 892647
+    },
+    {
+        "id": "18077",
+        "name": "Redmi K60 Pro",
+        "price": "2599",
+        "count": 235178
+    },
+    {
+        "id": "18073",
+        "name": "Redmi K60E",
+        "price": "1899",
+        "count": 76198
+    },
+    {
+        "id": "18482",
+        "name": "Xiaomi Civi 3",
+        "price": "2499",
+        "count": 115544
+    },
+    {
+        "id": "18569",
+        "name": "Xiaomi Civi 3 迪士尼100周年限定版手机壳",
+        "price": "99",
+        "count": 751
+    },
+    {
+        "id": "16642",
+        "name": "Redmi Note 12 5G",
+        "price": "1099",
+        "count": 609785
+    },
+    {
+        "id": "18268",
+        "name": "Redmi Note 12 Turbo",
+        "price": "1699",
+        "count": 600882
+    },
+    {
+        "id": "18542",
+        "name": "Redmi Note 12T Pro",
+        "price": "1499",
+        "count": 28748
+    },
+    {
+        "id": "16644",
+        "name": "Redmi Note 12 Pro",
+        "price": "1299",
+        "count": 888869
+    },
+    {
+        "id": "18092",
+        "name": "Redmi Note 12 Pro 极速版",
+        "price": "1599",
+        "count": 52613
+    },
+    {
+        "id": "16646",
+        "name": "Redmi Note 12 Pro+",
+        "price": "1899",
+        "count": 227987
+    }
+]
