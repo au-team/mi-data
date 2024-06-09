@@ -14,3 +14,5 @@ commit_message="Commit on $current_date"
 git commit -m "$commit_message"
 
 git push origin main
+
+open "template/$current_date.html"
