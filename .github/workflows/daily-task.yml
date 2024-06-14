@@ -18,7 +18,7 @@ jobs:
           node-version: '14' # 您可以选择需要的 Node.js 版本
 
       - name: Install dependencies
-        run: npm ci
+        run: npm i
 
       - name: Run daily-task.sh
         run: bash daily-task.sh
