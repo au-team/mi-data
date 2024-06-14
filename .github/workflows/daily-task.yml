@@ -22,7 +22,7 @@ jobs:
         run: npm i
 
       - name: Run daily-task.sh
-        run: bash daily-task.sh
+        run: node src/main.js
 
       - name: Commit and push if it changed
         run: |
