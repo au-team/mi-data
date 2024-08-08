@@ -190,7 +190,7 @@ export class Template {
     html.push(this.getSeriesTemplateInfo(series[8]));
     html.push('<p>--作为参考，Note 12 Pro系列销量135万，基础版85万，总计206万。</p>');
     html.push('<h2>五、Note Turbo系列</h2>');
-    html.push(this.getSeriesTemplateInfo(series[12]));
+    html.push(this.getSeriesTemplateInfo(series[13]));
     html.push(`<p>--作为参考，上代系列销量<b>${this.getCount(series[4])}</b>。</p>`);
     html.push('<h2>五、单品数据</h2>');
     spu.forEach((item, idx) => html.push(this.getSPUTemplateInfo(idx + 1, item)));
