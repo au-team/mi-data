@@ -185,9 +185,8 @@ var Template = /** @class */ (function () {
         html.push(this.getSeriesTemplateInfo(series_json_1.default[10]));
         html.push('<p></p>');
         html.push("<p>\u7EA2\u7C73 K60 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[7]), "</b></p>"));
-        html.push('<h2>三、CIVI 4 Pro</h2>');
-        html.push(this.getSeriesTemplateInfo(series_json_1.default[11]));
-        html.push("<p>CIVI 3 \u603B\u9500\u91CF <b>49\u4E07</b>\uFF0C CIVI2 \u603B\u9500\u91CF 34\u4E07</p>");
+        html.push('<h2>三、Xiaomi MIX Flip</h2>');
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[12]));
         html.push('<h2>四、Note 13系列</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[8]));
         html.push('<p>--作为参考，Note 12 Pro系列销量135万，基础版85万，总计206万。</p>');

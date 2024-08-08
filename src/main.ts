@@ -184,9 +184,8 @@ export class Template {
     html.push(this.getSeriesTemplateInfo(series[10]));
     html.push('<p></p>');
     html.push(`<p>红米 K60 系列 <b>${this.getCount(series[7])}</b></p>`);
-    html.push('<h2>三、CIVI 4 Pro</h2>');
-    html.push(this.getSeriesTemplateInfo(series[11]));
-    html.push(`<p>CIVI 3 总销量 <b>49万</b>， CIVI2 总销量 34万</p>`);
+    html.push('<h2>三、Xiaomi MIX Flip</h2>');
+    html.push(this.getSeriesTemplateInfo(series[12]));
     html.push('<h2>四、Note 13系列</h2>');
     html.push(this.getSeriesTemplateInfo(series[8]));
     html.push('<p>--作为参考，Note 12 Pro系列销量135万，基础版85万，总计206万。</p>');
