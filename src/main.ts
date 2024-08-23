@@ -101,20 +101,21 @@ export class Template {
             price: item.body.price,
             count: item.body.comments_total
         }))).catch(e => {
-            console.log(key)
+            console.log(key);
             debugger
         });
     }
 
-    private getAllSKU(): Promise<SKUInfo[]> {
-        return Promise
-            .all(search.map(config => {
-                return this.getSearchResult(config.key)
-                    .then(list =>
-                        list.filter(item => config.ids.includes(String(item.id)))
-                    );
-            }))
-            .then(data => data.flat(1));
+    private async getAllSKU(): Promise<SKUInfo[]> {
+
+        const data: SKUInfo[] = [];
+
+        for (const config of search) {
+            const list = await this.getSearchResult(config.key);
+            data.push(...list.filter(item => config.ids.includes(String(item.id))));
+        }
+
+        return data;
     }
 
     private getOldSKU(): SKUInfo[] {
