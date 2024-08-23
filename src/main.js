@@ -104,13 +104,14 @@ var Template = /** @class */ (function () {
             },
             'body': params.toString(),
             'method': 'POST'
-        }).then(function (res) { return res.json(); })
-            .then(function (data) { return data.data.list_v2.map(function (item) { return ({
+        }).then(function (res) { return res.json(); }).then(function (data) { return data.data.list_v2.map(function (item) { return ({
             id: item.body.product_id,
             name: item.body.name,
             price: item.body.price,
             count: item.body.comments_total
-        }); }); });
+        }); }); }).catch(function (e) {
+            console.log(key);
+        });
     };
     Template.prototype.getAllSKU = function () {
         var _this = this;

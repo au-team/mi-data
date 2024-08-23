@@ -95,13 +95,15 @@ export class Template {
                 'body': params.toString(),
                 'method': 'POST'
             }
-        ).then(res => res.json())
-            .then(data => data.data.list_v2.map((item: any) => ({
-                id: item.body.product_id,
-                name: item.body.name,
-                price: item.body.price,
-                count: item.body.comments_total
-            })));
+        ).then(res => res.json()).then(data => data.data.list_v2.map((item: any) => ({
+            id: item.body.product_id,
+            name: item.body.name,
+            price: item.body.price,
+            count: item.body.comments_total
+        }))).catch(e => {
+            console.log(key)
+            debugger
+        });
     }
 
     private getAllSKU(): Promise<SKUInfo[]> {
