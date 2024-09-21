@@ -29,7 +29,7 @@ const alias: Record<string, number> = {
     '18569': 1179,
     '19026': 339906,
     '18075': 1535408,
-    '17971': 1621871
+    '17971': 1621871,
 };
 
 export class Template {
