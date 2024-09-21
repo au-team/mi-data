@@ -29,7 +29,7 @@ const alias: Record<string, number> = {
     '18569': 1179,
     '19026': 339906,
     '18075': 1535408,
-    '17971': 1621871,
+    '17971': 1621871
 };
 
 export class Template {
@@ -48,7 +48,7 @@ export class Template {
     public process(): Promise<string> {
 
         return this
-            .getAllSKU()
+            .getAllSKUFromCache()
             .then(sku => {
                 this.sku.push(...sku);
                 sku.forEach(item => this.map[item.id] = item);
@@ -104,6 +104,33 @@ export class Template {
             console.log(key);
             debugger
         });
+    }
+
+    private async getAllSKUFromCache(): Promise<SKUInfo[]> {
+
+        const sku = await this.getAllSKU();
+        const dir = path.join(__dirname, '..', 'result');
+        const date = dayjs().format('YYYY-MM-DD');
+        const files = fs.readdirSync(dir).filter(item => item.startsWith(date));
+
+        files.forEach(file => {
+
+            const p = path.join(dir, file);
+            const content = fs.readFileSync(p, 'utf-8');
+            const json: SKUInfo[] = JSON.parse(content);
+
+            json.forEach(item => {
+
+                const idx = sku.findIndex(s => s.id === item.id);
+
+                if (idx === -1) {
+                    sku.push(item);
+                }
+            });
+
+        });
+
+        return sku;
     }
 
     private async getAllSKU(): Promise<SKUInfo[]> {

@@ -99,7 +99,7 @@ var Template = /** @class */ (function () {
     Template.prototype.process = function () {
         var _this = this;
         return this
-            .getAllSKU()
+            .getAllSKUFromCache()
             .then(function (sku) {
             var _a;
             (_a = _this.sku).push.apply(_a, sku);
@@ -148,6 +148,33 @@ var Template = /** @class */ (function () {
         }); }); }).catch(function (e) {
             console.log(key);
             debugger;
+        });
+    };
+    Template.prototype.getAllSKUFromCache = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var sku, dir, date, files;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.getAllSKU()];
+                    case 1:
+                        sku = _a.sent();
+                        dir = path.join(__dirname, '..', 'result');
+                        date = (0, dayjs_1.default)().format('YYYY-MM-DD');
+                        files = fs.readdirSync(dir).filter(function (item) { return item.startsWith(date); });
+                        files.forEach(function (file) {
+                            var p = path.join(dir, file);
+                            var content = fs.readFileSync(p, 'utf-8');
+                            var json = JSON.parse(content);
+                            json.forEach(function (item) {
+                                var idx = sku.findIndex(function (s) { return s.id === item.id; });
+                                if (idx === -1) {
+                                    sku.push(item);
+                                }
+                            });
+                        });
+                        return [2 /*return*/, sku];
+                }
+            });
         });
     };
     Template.prototype.getAllSKU = function () {
