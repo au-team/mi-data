@@ -1,0 +1,200 @@
+[
+    {
+        "id": "19184",
+        "name": "Redmi Note 13 Pro",
+        "price": "1399",
+        "count": 1464106
+    },
+    {
+        "id": "19182",
+        "name": "Redmi Note 13 5G",
+        "price": "899",
+        "count": 859084
+    },
+    {
+        "id": "19185",
+        "name": "Redmi Note 13 Pro+",
+        "price": "1899",
+        "count": 505012
+    },
+    {
+        "id": "19054",
+        "name": "Redmi 12 5G",
+        "price": "949",
+        "count": 28184
+    },
+    {
+        "id": "19019",
+        "name": "Xiaomi MIX Fold 3",
+        "price": "6999",
+        "count": 141270
+    },
+    {
+        "id": "16337",
+        "name": "Xiaomi MIX Fold 2",
+        "price": "8999",
+        "count": 137368
+    },
+    {
+        "id": "19019",
+        "name": "Xiaomi MIX Fold 3",
+        "price": "6999",
+        "count": 141263
+    },
+    {
+        "id": "16337",
+        "name": "Xiaomi MIX Fold 2",
+        "price": "8999",
+        "count": 137368
+    },
+    {
+        "id": "17971",
+        "name": "Xiaomi 13",
+        "price": "2699",
+        "count": 1622338
+    },
+    {
+        "id": "17972",
+        "name": "Xiaomi 13 限量定制色",
+        "price": "3299",
+        "count": 34590
+    },
+    {
+        "id": "17969",
+        "name": "Xiaomi 13 Pro",
+        "price": "4599",
+        "count": 328220
+    },
+    {
+        "id": "18363",
+        "name": "Xiaomi 13 Ultra",
+        "price": "3999",
+        "count": 304405
+    },
+    {
+        "id": "18443",
+        "name": "Xiaomi 13 Ultra 限量定制色",
+        "price": "4499",
+        "count": 7087
+    },
+    {
+        "id": "18075",
+        "name": "Redmi K60",
+        "price": "2499",
+        "count": 1545907
+    },
+    {
+        "id": "18077",
+        "name": "Redmi K60 Pro",
+        "price": "3299",
+        "count": 248752
+    },
+    {
+        "id": "18073",
+        "name": "Redmi K60E",
+        "price": "1899",
+        "count": 107582
+    },
+    {
+        "id": "18482",
+        "name": "Xiaomi Civi 3",
+        "price": "2099",
+        "count": 540396
+    },
+    {
+        "id": "18569",
+        "name": "Xiaomi Civi 3 迪士尼100周年限定版手机壳",
+        "price": "99",
+        "count": 2261
+    },
+    {
+        "id": "18268",
+        "name": "Redmi Note 12 Turbo",
+        "price": "1999",
+        "count": 1265716
+    },
+    {
+        "id": "18542",
+        "name": "Redmi Note 12T Pro",
+        "price": "1399",
+        "count": 107347
+    },
+    {
+        "id": "16642",
+        "name": "Redmi Note 12 5G",
+        "price": "899",
+        "count": 895876
+    },
+    {
+        "id": "16644",
+        "name": "Redmi Note 12 Pro",
+        "price": "1399",
+        "count": 1117837
+    },
+    {
+        "id": "19300",
+        "name": "Xiaomi 14",
+        "price": "3999",
+        "count": 2139597
+    },
+    {
+        "id": "19288",
+        "name": "Xiaomi 14 Pro",
+        "price": "4599",
+        "count": 987650
+    },
+    {
+        "id": "19683",
+        "name": "Xiaomi 14 Ultra",
+        "price": "5999",
+        "count": 276548
+    },
+    {
+        "id": "20153",
+        "name": "Redmi K70 至尊版",
+        "price": "2599",
+        "count": 524862
+    },
+    {
+        "id": "19432",
+        "name": "Redmi K70",
+        "price": "2299",
+        "count": 1362157
+    },
+    {
+        "id": "19436",
+        "name": "Redmi K70 Pro",
+        "price": "2799",
+        "count": 364812
+    },
+    {
+        "id": "19437",
+        "name": "Redmi K70E",
+        "price": "1799",
+        "count": 481519
+    },
+    {
+        "id": "19752",
+        "name": "Xiaomi Civi 4 Pro",
+        "price": "2799",
+        "count": 304833
+    },
+    {
+        "id": "19835",
+        "name": "Redmi Turbo 3",
+        "price": "1699",
+        "count": 731172
+    },
+    {
+        "id": "20181",
+        "name": "Xiaomi MIX Fold 4",
+        "price": "8999",
+        "count": 47695
+    },
+    {
+        "id": "20191",
+        "name": "Xiaomi MIX Flip",
+        "price": "5999",
+        "count": 112342
+    }
+]
