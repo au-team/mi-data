@@ -219,8 +219,12 @@ export class Template {
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series[13]));
         html.push('<h2>四、Note 14系列</h2>');
-        html.push(this.getSeriesTemplateInfo(series[13]));
-        html.push('<p>--作为参考，Note 13 Pro系列销量${this.getCount(series[8])}, Note 12 Pro系列销量135万，不再统计基础版新增</p>');
+        html.push(this.getSeriesTemplateInfo(series[14]));
+        html.push(`<p>--作为参考，Note 13 Pro系列销量 <b>${this.getCount(series[8])} <b>, Note 12 Pro系列销量135万</p>`);
+
+        html.push(this.getSeriesTemplateInfo(series[15]));
+        html.push(`<p>--作为参考，Note 13基础版销量 <b>${this.getCount(spu[14])} <b>, Note 12 基础版销量 85万</p>`);
+
         html.push('<h2>五、Note Turbo系列</h2>');
         html.push(this.getSeriesTemplateInfo(series[12]));
         html.push(`<p>--作为参考，上代系列销量<b>${this.getCount(series[4])}</b>。</p>`);

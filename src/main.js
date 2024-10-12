@@ -281,8 +281,10 @@ var Template = /** @class */ (function () {
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
         html.push('<h2>四、Note 14系列</h2>');
-        html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
-        html.push('<p>--作为参考，Note 13 Pro系列销量${this.getCount(series[8])}, Note 12 Pro系列销量135万，不再统计基础版新增</p>');
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[14]));
+        html.push("<p>--\u4F5C\u4E3A\u53C2\u8003\uFF0CNote 13 Pro\u7CFB\u5217\u9500\u91CF <b>".concat(this.getCount(series_json_1.default[8]), " <b>, Note 12 Pro\u7CFB\u5217\u9500\u91CF135\u4E07</p>"));
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[15]));
+        html.push("<p>--\u4F5C\u4E3A\u53C2\u8003\uFF0CNote 13\u57FA\u7840\u7248\u9500\u91CF <b>".concat(this.getCount(spu_json_1.default[14]), " <b>, Note 12 \u57FA\u7840\u7248\u9500\u91CF 85\u4E07</p>"));
         html.push('<h2>五、Note Turbo系列</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[12]));
         html.push("<p>--\u4F5C\u4E3A\u53C2\u8003\uFF0C\u4E0A\u4EE3\u7CFB\u5217\u9500\u91CF<b>".concat(this.getCount(series_json_1.default[4]), "</b>\u3002</p>"));
