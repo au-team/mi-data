@@ -280,9 +280,9 @@ var Template = /** @class */ (function () {
         html.push("<p>\u7EA2\u7C73 K60 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[7]), "</b></p>"));
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
-        html.push('<h2>四、Note 13系列</h2>');
-        html.push(this.getSeriesTemplateInfo(series_json_1.default[8]));
-        html.push('<p>--作为参考，Note 12 Pro系列销量135万，基础版85万，总计206万。</p>');
+        html.push('<h2>四、Note 14系列</h2>');
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
+        html.push('<p>--作为参考，Note 13 Pro系列销量${this.getCount(series[8])}, Note 12 Pro系列销量135万，不再统计基础版新增</p>');
         html.push('<h2>五、Note Turbo系列</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[12]));
         html.push("<p>--\u4F5C\u4E3A\u53C2\u8003\uFF0C\u4E0A\u4EE3\u7CFB\u5217\u9500\u91CF<b>".concat(this.getCount(series_json_1.default[4]), "</b>\u3002</p>"));
