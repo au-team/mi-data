@@ -269,10 +269,11 @@ var Template = /** @class */ (function () {
         var html = [
             "<h1>\u5C0F\u7C73 2023\u5E74\u4E3B\u6D41\u673A\u578B\u9500\u91CF\u8DDF\u8E2A".concat((0, dayjs_1.default)().format('YYYY/MM/DD'), "</h1>")
         ];
-        html.push('<h2>一、小米 14 系列</h2>');
+        html.push('<h2>一、小米 15 系列</h2>');
         html.push('<p> </p>');
-        html.push(this.getSeriesTemplateInfo(series_json_1.default[9]));
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[15]));
         html.push('<p></p>');
+        html.push("<p>\u5C0F\u7C7314\u7CFB\u5217\u603B\u9500\u91CF\u4E3A <b>".concat(this.getCount(series_json_1.default[9]), "</b></p>"));
         html.push("<p>\u5C0F\u7C7313\u7CFB\u5217\u603B\u9500\u91CF\u4E3A <b>".concat(this.getCount(series_json_1.default[2]), "</b></p>"));
         html.push('<h2>二、红米 K70 系列(不包括K70E)</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[10]));

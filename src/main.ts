@@ -207,10 +207,11 @@ export class Template {
             `<h1>小米 2023年主流机型销量跟踪${dayjs().format('YYYY/MM/DD')}</h1>`
         ];
 
-        html.push('<h2>一、小米 14 系列</h2>');
+        html.push('<h2>一、小米 15 系列</h2>');
         html.push('<p> </p>');
-        html.push(this.getSeriesTemplateInfo(series[9]));
+        html.push(this.getSeriesTemplateInfo(series[15]));
         html.push('<p></p>');
+        html.push(`<p>小米14系列总销量为 <b>${this.getCount(series[9])}</b></p>`);
         html.push(`<p>小米13系列总销量为 <b>${this.getCount(series[2])}</b></p>`);
         html.push('<h2>二、红米 K70 系列(不包括K70E)</h2>');
         html.push(this.getSeriesTemplateInfo(series[10]));
