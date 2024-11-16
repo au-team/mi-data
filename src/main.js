@@ -267,7 +267,7 @@ var Template = /** @class */ (function () {
     Template.prototype.render = function () {
         var _this = this;
         var html = [
-            "<h1>\u5C0F\u7C73 2023\u5E74\u4E3B\u6D41\u673A\u578B\u9500\u91CF\u8DDF\u8E2A".concat((0, dayjs_1.default)().format('YYYY/MM/DD'), "</h1>")
+            "<h1>\u5C0F\u7C73{dayjs().format('YYYY')}\u5E74\u4E3B\u6D41\u673A\u578B\u9500\u91CF\u8DDF\u8E2A".concat((0, dayjs_1.default)().format('YYYY/MM/DD'), "</h1>")
         ];
         html.push('<h2>一、小米 15 系列</h2>');
         html.push('<p> </p>');
