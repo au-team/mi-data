@@ -204,7 +204,7 @@ export class Template {
     private render() {
 
         const html: string[] = [
-            `<h1>小米{dayjs().format('YYYY')}年主流机型销量跟踪${dayjs().format('YYYY/MM/DD')}</h1>`
+            `<h1>小米${dayjs().format('YYYY')}年主流机型销量跟踪${dayjs().format('YYYY/MM/DD')}</h1>`
         ];
 
         html.push('<h2>一、小米 15 系列</h2>');
