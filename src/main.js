@@ -275,10 +275,10 @@ var Template = /** @class */ (function () {
         html.push(this.getSeriesTemplateInfo(series_json_1.default[16]));
         html.push('<p></p>');
         html.push("<p>\u5C0F\u7C7314\u7CFB\u5217\u603B\u9500\u91CF\u4E3A <b>".concat(this.getCount(series_json_1.default[9]), "</b>, \u5C0F\u7C7313\u7CFB\u5217\u603B\u9500\u91CF\u4E3A <b>").concat(this.getCount(series_json_1.default[2]), "</b></p>"));
-        html.push('<h2>二、红米 K70 系列(不包括K70E)</h2>');
-        html.push(this.getSeriesTemplateInfo(series_json_1.default[10]));
+        html.push('<h2>二、红米 K80 系列</h2>');
+        html.push(this.getSeriesTemplateInfo(series_json_1.default[17]));
         html.push('<p></p>');
-        html.push("<p>\u7EA2\u7C73 K60 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[7]), "</b></p>"));
+        html.push("<p>\u7EA2\u7C73 K70 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[10]), "</b>\uFF0C \u7EA2\u7C73 K60 \u7CFB\u5217 <b>").concat(this.getCount(series_json_1.default[7]), "</b></p>"));
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
         html.push('<h2>四、Note 14系列</h2>');

@@ -213,10 +213,10 @@ export class Template {
         html.push(this.getSeriesTemplateInfo(series[16]));
         html.push('<p></p>');
         html.push(`<p>小米14系列总销量为 <b>${this.getCount(series[9])}</b>, 小米13系列总销量为 <b>${this.getCount(series[2])}</b></p>`);
-        html.push('<h2>二、红米 K70 系列(不包括K70E)</h2>');
-        html.push(this.getSeriesTemplateInfo(series[10]));
+        html.push('<h2>二、红米 K80 系列</h2>');
+        html.push(this.getSeriesTemplateInfo(series[17]));
         html.push('<p></p>');
-        html.push(`<p>红米 K60 系列 <b>${this.getCount(series[7])}</b></p>`);
+        html.push(`<p>红米 K70 系列 <b>${this.getCount(series[10])}</b>， 红米 K60 系列 <b>${this.getCount(series[7])}</b></p>`);
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series[13]));
         html.push('<h2>四、Note 14系列</h2>');
