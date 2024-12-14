@@ -278,7 +278,7 @@ var Template = /** @class */ (function () {
         html.push('<h2>二、红米 K80 系列</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[17]));
         html.push('<p></p>');
-        html.push("<p>\u7EA2\u7C73 K70 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[10]), "</b>\uFF0C \u7EA2\u7C73 K60 \u7CFB\u5217 <b>").concat(this.getCount(series_json_1.default[7]), "</b></p>"));
+        html.push("<p>\u7EA2\u7C73 K70 \u7CFB\u5217 <b>".concat(this.getCount(series_json_1.default[10]), "</b>\uFF0C \u7EA2\u7C73 K60 \u7CFB\u5217 <b>2124040</b></p>"));
         html.push('<h2>三、Xiaomi MIX Flip</h2>');
         html.push(this.getSeriesTemplateInfo(series_json_1.default[13]));
         html.push('<h2>四、Note 14系列</h2>');
