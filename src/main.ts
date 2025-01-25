@@ -230,8 +230,8 @@ export class Template {
         html.push(`<p>--作为参考，Note 13基础版销量 <b>${this.getCount(spu[14])} </b>, Note 12 基础版销量 85万</p>`);
 
         html.push('<h2>五、Note Turbo系列</h2>');
-        html.push(this.getSeriesTemplateInfo(series[12]));
-        html.push(`<p>--作为参考，上代系列销量<b>${this.getCount(series[4])}</b>。</p>`);
+        html.push(this.getSeriesTemplateInfo(series[18]));
+        html.push(`<p>--作为参考，上代系列销量<b>${this.getCount(series[12])}</b>。</p>`);
         html.push('<h2>五、单品数据</h2>');
         spu.forEach((item, idx) => html.push(this.getSPUTemplateInfo(idx + 1, item)));
         html.push('<p>🔥最后：数据整理不易，如果您觉得有价值，帮忙点个关注呗⭐️⭐️⭐️</p>');
