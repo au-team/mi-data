@@ -137,11 +137,8 @@ var Template = /** @class */ (function () {
                 'sec-fetch-dest': 'empty',
                 'sec-fetch-mode': 'cors',
                 'sec-fetch-site': 'same-origin',
-                'sentry-trace': '4d541bd796884b15b6c2b44256c84a85-be7fa8415af2f7ba-1',
                 'x-requested-with': 'XMLHttpRequest',
                 'x-user-agent': 'channel/mishop platform/mishop.m',
-                'xmuuid': 'XMGUEST-90EC06F0-06C7-11EE-A486-912F957E2039',
-                'cookie': 'mstuid=1672138670582_7472; xmuuid=XMGUEST-90EC06F0-06C7-11EE-A486-912F957E2039; xmUuid=XMGUEST-90EC06F0-06C7-11EE-A486-912F957E2039; _utm_data={"mtm":"","device_id":""}; deviceId=xmdevice_j7swgpc3w8dxnuan; Hm_lvt_c3e3e8b3ea48955284516b186acf0f4e=1686316447,1688698936; XM_agreement=0; Hm_lpvt_c3e3e8b3ea48955284516b186acf0f4e=1688698942; Hm_lvt_183aed755f0fd3efc9912dbf6550ec49=1686316499,1688698948; mishopDeviceId=BU8SOd0QlJazyCTB3KS1gGBt+fdau4SBUyIpGkUY82d0RuJCrOe/DvbkDez2UxCsEjgzU8lgxXUOmlPAjMq48cQ; lastsource=s1.mi.com; xm_vistor=1672138670582_7472_1688698941862-1688698953127; mstz=||2100808401.40||https%253A%252F%252Fs1.mi.com%252F|https%25253A%25252F%25252Fs1.mi.com%25252F; Hm_lpvt_183aed755f0fd3efc9912dbf6550ec49=1688698954; pageid=13c7dea5c88bfe74',
                 'Referer': 'https://m.mi.com/search',
                 'Referrer-Policy': 'strict-origin-when-cross-origin'
             },
